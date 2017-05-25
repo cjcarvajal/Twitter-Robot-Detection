@@ -1,7 +1,7 @@
 import requests
 import json
 
-token = 'Bearer AAAAAAAAAAAAAAAAAAAAACgz0AAAAAAA9xbFOaQOxLvzWnC9YkuCv4cvhzE%3DaEvb5RCynGtUVr7HiaYQQkElIZjT3cVS2nzkQsT6A0KugZALaG'
+token = 'Bearer {yourKeyHere}'
 base_url = 'https://api.twitter.com/1.1/search/tweets.json'
 properties_file_name = 'properties.json'
 
