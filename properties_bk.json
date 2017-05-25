@@ -1,1 +1,14 @@
-{"characters": [{"account": "@petrogustavo", "sinceId": 867572076114300928, "subject": ""}, {"account": "@AlvaroUribeVel", "sinceId": 867572116379578371, "subject": ""}, {"account": "@HOLLMANMORRIS", "sinceId": 867572059454492673, "subject": ""}, {"account": "@JuanManSantos", "sinceId": 867572124323635200, "subject": ""}, {"account": "@EnriquePenalosa", "sinceId": 867572127800713218, "subject": ""}]}
+{  
+   "characters":[
+      {  
+         "account":"@StateDept",
+         "sinceId":0,
+         "subject":"terrorism OR economy"
+      },
+      {  
+         "account":"@POTUS",
+         "sinceId":0,
+         "subject":"\"national defense\" OR budget"
+      }
+   ]
+}
