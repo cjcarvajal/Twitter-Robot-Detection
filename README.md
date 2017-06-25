@@ -37,5 +37,15 @@ When you finished the process of tweets recolection, it's time to load the tweet
 
 I wanted to find those account with little number of followers but great number of favourites tweets, so i use the following Mongo query:
 
+```javascript
+db.tweets.find({"$and" : [
+		{"text":{"$regex":"RT @realDonaldTrump"}},
+		{"retweeted_status":{"$nin":[null]}},
+		{"user.followers_count":{"$lt":15}},
+		{"user.favourites_count":{"$gt":500}}]},
+		{"user.screen_name":1,"user.followers_count":1,"user.favourites_count":1,"_id":0})
+```
+Here i propose a number less than 15 followers but more than 500 favourited tweets, feel free to tunning this parameters or include new conditions.
 
+Hope you unmask many Napoleons and Squealers.
 
