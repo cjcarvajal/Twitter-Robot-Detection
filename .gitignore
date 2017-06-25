@@ -1,0 +1,5 @@
+.DS_Store
+tweets/
+properties.json
+tweetFinder.sh
+Results.xlsx

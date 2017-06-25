@@ -1,0 +1,14 @@
+{  
+   "characters":[
+      {  
+         "account":"@StateDept",
+         "sinceId":0,
+         "subject":"terrorism OR economy"
+      },
+      {  
+         "account":"@POTUS",
+         "sinceId":0,
+         "subject":"\"national defense\" OR budget"
+      }
+   ]
+}
